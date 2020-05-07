@@ -2107,16 +2107,6 @@ input, select, textarea {
 			font-weight: 600;
 			font-size: 1em;
 			line-height: 1em;
-			text-shadow:
-		        /* Outline */
-		        -1px -1px 0 #000000,
-		        1px -1px 0 #000000,
-		        -1px 1px 0 #000000,
-		        1px 1px 0 #000000,  
-		        -2px 0 0 #000000,
-		        2px 0 0 #000000,
-		        0 2px 0 #000000,
-		        0 -2px 0 #000000; /* Terminate with a semi-colon */
 		}
 
 		#logo p {
@@ -2258,7 +2248,7 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/Galaxy.jpg");
+				background-image: url("../../images/hudf.jpg");
 				/*background-image: url("../../images/banner.jpg");*/
 			}
 
