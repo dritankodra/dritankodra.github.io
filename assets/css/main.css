@@ -127,6 +127,7 @@ input, select, textarea {
 
 	h2 {
 		font-size: 2em;
+		font-weight: 300;
 		letter-spacing: -1px;
 	}
 
@@ -140,6 +141,7 @@ input, select, textarea {
 
 	h3 {
 		font-size: 1.5em;
+		font-weight: 300;
 	}
 
 	header {
