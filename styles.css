@@ -40,6 +40,10 @@ body {
     padding: 0 2rem;
 }
 
+#skills .container {
+    padding: 0 1rem;
+}
+
 /* Navigation */
 .navbar {
     position: fixed;
@@ -432,10 +436,11 @@ body {
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr 1.4fr 1fr 1fr;
+    gap: 1rem;
     margin-top: 2rem;
 }
+
 
 .skill-category {
     background-color: var(--bg-primary);
@@ -458,6 +463,14 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
+}
+
+.skill-item-break {
+    flex-basis: 100%;
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .skill-item {
