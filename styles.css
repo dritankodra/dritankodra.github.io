@@ -6,11 +6,8 @@
 }
 
 :root {
-    /* --primary-color: #6366f1; */
     --primary-color: #3d8af7;
-    /* --primary-dark: #4f46e5; */
     --primary-dark: #1e6cd9;
-    /* --secondary-color: #8b5cf6; */
     --secondary-color: #0e4fab;
     --text-primary: #1f2937;
     --text-secondary: #6b7280;
@@ -740,7 +737,7 @@ body {
         background-attachment: scroll;
         background-size: cover;
         background-position: center center;
-        padding: 8rem 2rem 2rem;
+        padding: 8rem 2rem 4rem;
     }
 
     .profile-picture {
@@ -756,7 +753,7 @@ body {
     .hero-buttons {
         flex-direction: column;
         width: 100%;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0rem;
     }
 
     .btn {
@@ -764,7 +761,7 @@ body {
     }
 
     .scroll-indicator {
-        bottom: 0.5rem;
+        bottom: 1rem;
     }
 
     .skills-grid {
