@@ -130,6 +130,7 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    background-repeat: no-repeat;
     color: white;
     position: relative;
     overflow: hidden;
@@ -642,6 +643,11 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .hero {
+        background-attachment: scroll;
+        background-size: cover;
+        background-position: center center;
+    }
     .nav-menu {
         position: fixed;
         left: -100%;
@@ -729,6 +735,12 @@ body {
 }
 
 @media (max-width: 480px) {
+    .hero {
+        background-attachment: scroll;
+        background-size: cover;
+        background-position: center center;
+    }
+
     .profile-picture {
         width: 120px;
         height: 120px;
@@ -750,6 +762,13 @@ body {
 
     .skills-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+/* Fix for iOS devices - background-attachment: fixed causes rendering issues */
+@supports (-webkit-touch-callout: none) {
+    .hero {
+        background-attachment: scroll;
     }
 }
 
