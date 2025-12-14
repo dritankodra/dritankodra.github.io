@@ -125,8 +125,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 8rem 2rem 4rem;
-    background: linear-gradient(135deg, rgba(61, 138, 247, 0.25) 0%, rgba(61, 138, 247, 0.25) 100%), url('images/gal1.jpg');
+    padding: 8rem 2rem 6rem;
+    background: linear-gradient(135deg, rgba(61, 138, 247, 0.25) 0%, rgba(61, 138, 247, 0.25) 100%), url('images/Galaxy_Background.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -241,7 +241,7 @@ body {
 
 .scroll-indicator {
     position: absolute;
-    bottom: 2rem;
+    bottom: 1.5rem;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -251,6 +251,7 @@ body {
     color: white;
     opacity: 0.8;
     animation: bounce 2s infinite;
+    z-index: 10;
 }
 
 .arrow {
@@ -739,6 +740,7 @@ body {
         background-attachment: scroll;
         background-size: cover;
         background-position: center center;
+        padding: 8rem 2rem 5rem;
     }
 
     .profile-picture {
@@ -754,10 +756,15 @@ body {
     .hero-buttons {
         flex-direction: column;
         width: 100%;
+        margin-bottom: 0.5rem;
     }
 
     .btn {
         width: 100%;
+    }
+
+    .scroll-indicator {
+        bottom: 0.5rem;
     }
 
     .skills-grid {
