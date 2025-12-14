@@ -761,7 +761,7 @@ body {
     }
 
     .scroll-indicator {
-        bottom: 1rem;
+        bottom: 0rem;
     }
 
     .skills-grid {
